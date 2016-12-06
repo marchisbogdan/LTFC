@@ -1,0 +1,17 @@
+function AriePerimetru ( )
+{
+	float perimetru ;
+	float aria ;
+	float raza ;
+	float pi ;
+	
+	in raza ;
+	
+	pi = 3.14 ;
+	
+	perimetru = 2 * pi * raza ;
+	aria = pi * raza * raza ;
+	
+	out perimetru ; 
+	out aria ;
+}
