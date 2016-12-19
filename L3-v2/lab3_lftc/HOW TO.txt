@@ -1,0 +1,2 @@
+1. compileaza fisierul *.l cu lex
+2. compileaza fisierul *.

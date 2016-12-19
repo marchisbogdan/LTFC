@@ -1,0 +1,14 @@
+program suprafata ;
+var
+	pi is real ;
+	aria is real ;
+	suprafata is real ;
+	r is real ;
+begin
+	pi := 3.14 ;
+	read ( r ) ;
+	suprafata := 2 * pi * r ;
+	aria := pi * r * r ;
+	println ( suprafata ) ;
+	println ( aria ) ;	
+end .

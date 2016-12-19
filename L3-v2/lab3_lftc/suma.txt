@@ -1,0 +1,16 @@
+program lab1 ;
+var
+	x is array_of real [ 10 ] ;
+	i is int ;
+	length is int ;
+	sum is real ;
+begin
+	i := 0 ;
+	sum := 0 ;
+	while ( i < n ) { 
+		read ( x [ i ] ) ;
+		sum := sum + x [ i ] ;
+		i := i + 1 ;
+	}
+	println ( sum ) ;
+end .

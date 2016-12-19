@@ -1,0 +1,16 @@
+program cmmdc ;
+var
+	a is int ;
+	b is int ;
+	rez is int ;
+begin
+	read ( a ) ;
+	read ( b ) ;
+	while ( a != b ) {
+		if ( a > b )
+			a := a - b ;
+		else
+			b := b - a ;
+	}
+	println ( a ) ;
+end .
