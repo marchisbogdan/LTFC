@@ -1,0 +1,8 @@
+var r : int ; p : real ; a : real ;
+start
+read ( r )
+p := 2 * 3.14 * r
+a := 3.14 * r * r
+write ( p )
+write ( a )
+end

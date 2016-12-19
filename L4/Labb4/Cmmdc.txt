@@ -1,0 +1,9 @@
+var a : int ; b : int ;
+start
+read ( a )
+read ( b )
+while a <> b do
+if a > b then a := a - b
+else b := b - a
+write ( a ) 
+end

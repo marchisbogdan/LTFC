@@ -1,0 +1,12 @@
+var i : int ; n : int ; s : real ; sir : array [ 10 ] of real ;
+start
+read ( n )
+i := 1
+s := 0
+while i <= n do start
+read ( sir [ i ] )
+s := s + sir [ i ]
+i := i + 1
+end 
+write ( s ) 
+end

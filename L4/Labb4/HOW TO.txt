@@ -1,0 +1,3 @@
+1. compileaza cu lex fisierul *.l
+2. compileaza cu bison fisierul fileb.y
+3. consola > fileb Suma.txt
